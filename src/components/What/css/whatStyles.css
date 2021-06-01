@@ -1,0 +1,243 @@
+body {
+    font-family: "Lucida Sans reg", sans-serif;
+    /* height: 1050px; */
+  }
+  
+.outer_container {
+    display: flex;
+    flex-grow: 1;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;    
+}
+
+#img {
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;   
+}
+  
+.inner_container {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 10%;
+  position: absolute;
+  width: auto;
+  background-color: white;
+  /* height: 1050px; */
+}
+
+/* html{
+    box-sizing: border-box;
+    color: var(--dark);
+    text-decoration: none;
+    border: 0;
+} */
+
+#logo {
+    padding-top: 40px;
+}
+
+/* topnav*/
+
+#vertline1 {
+    float: left;
+    margin-top: 16px;
+    margin-left: 310px;
+    color: gray;
+}
+
+#vertline2 {
+    float: left;
+    margin-top: 16px;
+    margin-left: 215px;
+    color: gray;
+}
+
+#vertline3 {
+    float: left;
+    margin-top: 16px;
+    margin-left: 235px;
+    color: gray;
+}
+
+#vertline4 {
+    float: left;
+    margin-top: 16px;
+    margin-left: 245px;
+    color: gray;
+}
+
+
+#topnav {
+    position: absolute;
+    margin-left: 90px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  #topnav > ul {
+    margin: 0;
+    padding: 0;
+  }
+  #topnav > ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    float: left;
+  }
+  #topnav ul > li > a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 16px 60px;  
+    display: block;
+    color: black;
+    text-align: center;
+  }
+
+.line-1{
+    width: 92%;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-top: 10px;/* changed from padding-bottom 1px*/
+    margin-left: 50px;
+}
+  
+.line-2{
+    margin-left: 50px;
+    width: 92%;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 35px;
+}
+
+.login{
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    margin-left: 80px;
+    width: 65px;
+    height: 35px;
+}
+
+.sidenav{
+    margin-left: 40px;
+    margin-top: 2vh;
+    color: white;
+    z-index: 1;
+    height: 75%;
+    width: 250px;
+    list-style: none;
+    padding: 2rem;
+    text-decoration: none;
+    text-align: left;
+    background: #AD0000;
+    background: -moz-linear-gradient(top, #AD0000 0%, #6E0000 100%);
+    background: -webkit-linear-gradient(top, #AD0000 0%, #6E0000 100%);
+    background: linear-gradient(to bottom, #AD0000 0%, #6E0000 100%);
+    overflow-x: hidden;
+}
+
+#side-img {
+    width: 185px;
+}
+
+.col-md-9 {
+
+}
+
+#text-area{
+    margin-top: 10px;
+    margin-right: 20px;
+    /* grid-column: 2/6; */
+    text-decoration: none;
+    
+}
+#img-area{
+    padding: 10px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-column: 2/2; */
+    
+}
+
+/* Footer */
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-line {
+    display: block;
+    border-top: 2px solid rgb(206, 206, 206);
+    content: "";
+    margin: 10px;
+    position: absolute;
+    z-index: 0;
+    width: 50%;
+    margin-left: 250px; 
+}
+
+#footer-link{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%; 
+    border-top: 1px solid black;
+    color: black;
+    padding-top: 10px;
+}
+
+#who {
+    background-color: white;
+    z-index: 1;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 50
+} 
+
+#what {
+    background-color: white;
+    z-index: 1;
+    width: 150px;
+    margin-right: 20px;
+    padding-right: 50
+} 
+
+#news {
+    background-color: white;
+    z-index: 1;
+    width: 175px;
+    margin-right: 20px;
+    padding-right: 50
+} 
+
+#where {
+    background-color: white;
+    z-index: 1;
+    width: 175px;
+    margin-right: 20px;
+    padding-right: 50
+} 
+
+#contact {
+    background-color: white;
+    z-index: 1;
+    width: 150px;
+    margin-right: 20px;
+    padding-right: 50
+} 
